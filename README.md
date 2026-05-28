@@ -30,7 +30,7 @@ I'm a dedicated computer science professional with a strong passion for **Artifi
 
 ## 📂 Featured Projects
 
-### 🤖 [Modern Gaming AI - Assignment 2](https://github.com/ilakiyaravi3-web/Modern-Gaming-AI-asgn-2)
+### 🤖 [Modern Gaming AI ](https://github.com/ilakiyaravi3-web/Modern-Gaming-AI-asgn-2)
 **Advanced Game Intelligence & AI Techniques**
 
 - **Languages**: Python (71.8%), Typst (23.9%)
@@ -54,7 +54,7 @@ I'm a dedicated computer science professional with a strong passion for **Artifi
 
 ---
 
-### 🧠 [Reinforcement Learning - Assignment 3](https://github.com/ilakiyaravi3-web/RL-ASSIGNMENT-3)
+### 🧠 [REINFORCE and Basic Actor-Critic methods](https://github.com/ilakiyaravi3-web/RL-ASSIGNMENT-3)
 **Deep Reinforcement Learning Implementation**
 
 - **Language**: Python
@@ -66,7 +66,7 @@ I'm a dedicated computer science professional with a strong passion for **Artifi
 
 ---
 
-### 🎬 [Reinforcement Learning - Assignment 2](https://github.com/ilakiyaravi3-web/Reinforcement-Learning-Assignment2)
+### 🎬 [Q-Learning: Tabular & Deep](https://github.com/ilakiyaravi3-web/Reinforcement-Learning-Assignment2)
 **Foundational Reinforcement Learning**
 
 - **Language**: Python
@@ -78,7 +78,7 @@ I'm a dedicated computer science professional with a strong passion for **Artifi
 
 ---
 
-### 🔍 [Information Retrieval - Final Assignment](https://github.com/ilakiyaravi3-web/IR-FINAL-ASSIGNMENT)
+### 🔍 [CROSS-ENCODER RE-RANKERS AND  QUERY EXPANSION WITH AN LLM](https://github.com/ilakiyaravi3-web/IR-FINAL-ASSIGNMENT)
 **Advanced Search & Ranking Systems**
 
 - **Language**: Jupyter Notebook

@@ -30,77 +30,70 @@ I'm a dedicated computer science professional with a strong passion for **Artifi
 
 ## 📂 Featured Projects
 
-### 🤖 [Modern Gaming AI ](https://github.com/ilakiyaravi3-web/Modern-Gaming-AI-asgn-2)
-**Advanced Game Intelligence & AI Techniques**
-
-- **Languages**: Python (71.8%), Typst (23.9%)
-- Implemented sophisticated AI algorithms for game playing
-- Integrated modern machine learning techniques with game mechanics
-- Produced comprehensive documentation with Typst typesetting
-
-[View Repository](https://github.com/ilakiyaravi3-web/Modern-Gaming-AI-asgn-2) →
-
----
-
-### 🎮 [Hnefatafl - Ancient Strategy Game AI](https://github.com/ilakiyaravi3-web/hnefatafl)
-**Building AI Agents for Historical Board Games**
-
-- **Language**: Python
-- Developed intelligent agents for Hnefatafl (Viking chess)
-- Implemented game tree search and evaluation functions
-- Demonstrated advanced adversarial AI techniques
-
-[View Repository](https://github.com/ilakiyaravi3-web/hnefatafl) →
-
----
-
-### 🧠 [REINFORCE and Basic Actor-Critic methods](https://github.com/ilakiyaravi3-web/RL-ASSIGNMENT-3)
-**Deep Reinforcement Learning Implementation**
-
-- **Language**: Python
-- Explored advanced RL algorithms and techniques
-- Implemented policy optimization methods
-- Analyzed convergence and performance metrics
-
-[View Repository](https://github.com/ilakiyaravi3-web/RL-ASSIGNMENT-3) →
-
----
-
-### 🎬 [Q-Learning: Tabular & Deep](https://github.com/ilakiyaravi3-web/Reinforcement-Learning-Assignment2)
-**Foundational Reinforcement Learning**
-
-- **Language**: Python
-- Implemented core RL concepts and algorithms
-- Designed reward structures and value functions
-- Experimented with different exploration strategies
-
-[View Repository](https://github.com/ilakiyaravi3-web/Reinforcement-Learning-Assignment2) →
-
----
-
-### 🔍 [CROSS-ENCODER RE-RANKERS AND  QUERY EXPANSION WITH AN LLM](https://github.com/ilakiyaravi3-web/IR-FINAL-ASSIGNMENT)
-**Advanced Search & Ranking Systems**
-
-- **Language**: Jupyter Notebook
-- Implemented IR algorithms and techniques
-- Built search engines with ranking optimization
-- Evaluated system performance using standard metrics
-
-[View Repository](https://github.com/ilakiyaravi3-web/IR-FINAL-ASSIGNMENT) →
-
----
-
-### ⭐ [Recommender System - TIGER Project](https://github.com/ilakiyaravi3-web/recommender-system_TIGER)
-**Intelligent Recommendation Algorithms**
-
-- **Language**: Jupyter Notebook
-- Developed collaborative filtering systems
-- Implemented content-based recommendation approaches
-- Achieved optimization through hybrid models
-
-[View Repository](https://github.com/ilakiyaravi3-web/recommender-system_TIGER) →
-
----
+<table>
+<tr>
+<td width="50%" valign="top">
+<h3>🤖 <a href="https://github.com/ilakiyaravi3-web/RL-ASSIGNMENT-3">RL for Control</a></h3>
+<p>Policy-gradient &amp; value-based methods — REINFORCE, SAC and A2C benchmarked on CartPole-v1 across 5 seeds.</p>
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+</p>
+</td>
+<td width="50%" valign="top">
+<h3>🧠 <a href="https://github.com/ilakiyaravi3-web/Reinforcement-Learning-Assignment2">Core RL Foundations</a></h3>
+<p>Reward design, value functions and exploration strategies across foundational RL algorithms.</p>
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🔥 <a href="https://github.com/ilakiyaravi3-web/SAC---REINFORCEMENT-LEARNING">Discrete Soft Actor-Critic</a></h3>
+<p>Discrete SAC on CartPole-v1 — fixed vs. automatic temperature, target-entropy ablations across seeds 42–46.</p>
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+<img src="https://img.shields.io/badge/Gymnasium-0081A5?style=flat-square&logo=openaigym&logoColor=white" alt="Gymnasium" />
+</p>
+</td>
+<td width="50%" valign="top">
+<h3>⭐ <a href="https://github.com/ilakiyaravi3-web/recommender-system_TIGER">Sequential Recommender</a></h3>
+<p>Self-attention sequential recommendation with careful full-ranking evaluation.</p>
+<p>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+<img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=flat-square&logo=pytorch&logoColor=white" alt="PyTorch" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>🔍 <a href="https://github.com/ilakiyaravi3-web/IR-FINAL-ASSIGNMENT">Information Retrieval</a></h3>
+<p>Search and ranking systems evaluated with standard IR metrics.</p>
+<p>
+<img src="https://img.shields.io/badge/Jupyter-F37626?style=flat-square&logo=jupyter&logoColor=white" alt="Jupyter" />
+</p>
+</td>
+<td width="50%" valign="top">
+<h3>🎮 <a href="https://github.com/ilakiyaravi3-web/Modern-Gaming-AI-asgn-2">Modern Gaming AI</a></h3>
+<p>Game-playing AI combining search with modern machine learning techniques.</p>
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+<img src="https://img.shields.io/badge/Typst-239DAD?style=flat-square&logo=typst&logoColor=white" alt="Typst" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
+<h3>♟️ <a href="https://github.com/ilakiyaravi3-web/hnefatafl">Hnefatafl Agents</a></h3>
+<p>Adversarial agents for Viking chess via game-tree search and evaluation functions.</p>
+<p>
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+</td>
+</tr>
+</table>
 
 ## 🛠️ Technical Skills
 
@@ -229,7 +222,6 @@ This portfolio repository and its contents are available under the **MIT License
 
 <div align="center">
 
-**Last Updated**: May 28, 2026  
 Made with ❤️ by [Ilakiya Ravi](https://github.com/ilakiyaravi3-web)
 
 </div>

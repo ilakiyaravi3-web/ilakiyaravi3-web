@@ -1,0 +1,42 @@
+# Cross Encoder Rerankers and Query Expansion with an LLM
+
+Neural reranking and rank fusion on the TREC Deep Learning 2019 passage task, plus an evaluation of whether LLM based query expansion actually improves retrieval.
+
+## Overview
+
+This project builds a two stage retrieval pipeline: a first stage retriever followed by cross encoder reranking, evaluated on the **TREC Deep Learning 2019** passage ranking task. It then combines multiple rerankers using rank fusion, and separately tests a popular idea — using an LLM to rewrite or expand the query before retrieval — to see whether it earns its added complexity.
+
+The headline finding is a negative result: **LLM based query expansion degraded retrieval quality relative to the plain query.** Fusing several weaker rerankers, by contrast, outperformed the single best model. Both results point the same way: a technique should prove its contribution before being trusted in a pipeline.
+
+## What's in here
+
+| File | Contents |
+| --- | --- |
+| `(Fine_tuning)_Final_assignment.ipynb` | Fine tuning cross encoder rerankers (MiniLM, TinyBERT, distilRoBERTa) on the retrieval task |
+| `(Evaluating)_Final_assignment.ipynb` | Evaluation of the fine tuned rerankers against standard IR metrics |
+| `TASK_2_&3.ipynb` | Rank fusion experiments (RRF, CombSUM, CombMNZ, BordaFuse, ISR) combining multiple reranker outputs |
+| `Task4&5.ipynb` | LLM based query expansion (Chain of Thought and Pseudo Relevance Feedback prompting) and its effect on retrieval quality |
+| `cross_encoder_CoT_PRF_result_table.tsv` | Result table comparing baseline, cross encoder, rank fusion and query expansion configurations |
+| `TASK 1 RESULT NOTES.txt` | Working notes from the first stage retrieval experiments |
+| `IR_Final.pdf` | Written report covering method, results and analysis |
+
+## Method summary
+
+1. **First stage retrieval** over the TREC Deep Learning 2019 passage collection.
+2. **Cross encoder reranking** with MiniLM, TinyBERT and distilRoBERTa, fine tuned and evaluated independently.
+3. **Rank fusion** combining reranker outputs with RRF, CombSUM, CombMNZ, BordaFuse and ISR. Fusing several weaker models outperformed the best individual model, with the weakest model contributing the most diversity.
+4. **LLM based query expansion** using Chain of Thought and Pseudo Relevance Feedback prompting (Zephyr 7B beta), tested against the plain query baseline.
+
+## Key findings
+
+- **Rank fusion beat the best single model.** Combining diverse, individually weaker rerankers produced a stronger ranking than any one reranker alone.
+- **LLM query expansion degraded retrieval.** Expanding the query with an LLM before retrieval performed worse than retrieving on the plain query, a concrete case of a language model addition looking helpful without actually being tested first.
+- **TinyBERT was competitive with larger models** under a fixed training budget, an efficiency argument for distillation over raw model size.
+
+## Tech stack
+
+Python, Hugging Face Transformers, PyTorch, Jupyter Notebook.
+
+## Related work
+
+This project's evaluation instinct — test whether a component genuinely helps before trusting it — carries directly into my other work, including [generative sequential recommendation](https://github.com/ilakiyaravi3-web/recommender-system_TIGER) and [reinforcement learning for control](https://github.com/ilakiyaravi3-web/RL-ASSIGNMENT-3).

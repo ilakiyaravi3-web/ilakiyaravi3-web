@@ -86,6 +86,26 @@ I'm a dedicated computer science professional with a strong passion for **Artifi
 </tr>
 <tr>
 <td width="50%" valign="top">
+<h3>🧠 <a href="https://github.com/ilakiyaravi3-web/DEEP-LEARNING-CNN-AND-MLP">Deep Learning: CNN &amp; MLP</a></h3>
+<p>Systematic comparison of MLPs and CNNs on CIFAR-10 and Fashion MNIST with hyperparameter search, plus a CNN clock reading system with classification, regression, and cyclical encoding.</p>
+<p>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+</td>
+<td width="50%" valign="top">
+<h3>🎨 <a href="https://github.com/ilakiyaravi3-web/DEEP-LEARNING-VAE-AND-GAN">Deep Learning: VAE &amp; GAN</a></h3>
+<p>Variational Autoencoder and GAN trained on CelebA-HQ faces — reparameterisation trick, latent space interpolation, and adversarial training for face generation.</p>
+<p>
+<img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat-square&logo=tensorflow&logoColor=white" alt="TensorFlow" />
+<img src="https://img.shields.io/badge/Keras-D00000?style=flat-square&logo=keras&logoColor=white" alt="Keras" />
+<img src="https://img.shields.io/badge/Python-3776AB?style=flat-square&logo=python&logoColor=white" alt="Python" />
+</p>
+</td>
+</tr>
+<tr>
+<td width="50%" valign="top">
 <h3>♟️ <a href="https://github.com/ilakiyaravi3-web/hnefatafl">Hnefatafl Agents</a></h3>
 <p>Adversarial agents for Viking chess via game-tree search and evaluation functions.</p>
 <p>
@@ -195,7 +215,9 @@ For a detailed overview of my experience, education, and qualifications, please 
 ├── 🧠 RL-ASSIGNMENT-3
 ├── 🎬 Reinforcement-Learning-Assignment2
 ├── 🔍 IR-FINAL-ASSIGNMENT
-└── ⭐ recommender-system_TIGER
+├── ⭐ recommender-system_TIGER
+├── 🧠 DEEP-LEARNING-CNN-AND-MLP
+└── 🎨 DEEP-LEARNING-VAE-AND-GAN
 ```
 
 [**View All Repositories →**](https://github.com/ilakiyaravi3-web?tab=repositories)
